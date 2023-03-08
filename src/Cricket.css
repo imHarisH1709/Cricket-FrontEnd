@@ -1,0 +1,38 @@
+.container{
+    margin: 30px;
+    width: 400px;
+    height: 500px;
+    border-radius: 2%;
+    margin-top: 350px;
+    padding: 1%;
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    opacity:0.69;
+}
+.row{
+    color:rgb(255, 1, 1);
+    font-size: larger;
+}
+input{
+    border-radius: 10px;
+    border-color: #E69A8DFF;
+    width: 250px;
+    height: 30px;
+}
+button{
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+}
+button:hover:not(.active){
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+    background-color: aqua;
+}
+
+body{
+    background-image: url('https://pbs.twimg.com/media/Chl9HtBWMAAcE0s.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
